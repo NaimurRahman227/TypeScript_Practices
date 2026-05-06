@@ -47,6 +47,6 @@ const sendInvite = (...friends: string[]) =>{
     friends.forEach((friend:String) => console.log(`Send Invitation to ${friend}`));
 };
 
-sendInvite('naimur' , 'faruk' , 'maruf' , 'hanif' , 'kallu');
+sendInvite('naimur' , 'faruk' , 'maruf' , 'hanif' , 'kallu');  
 
 
