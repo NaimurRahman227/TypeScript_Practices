@@ -12,4 +12,19 @@ const user = {
         thana: 'kaxipur'
     }
 };
+const userr = {
+    name: 'NAimur',
+    roll: 1990,
+    role: 'Admin',
+    vehicle: 'Bike',
+    shift: 'Day',
+    Salary: 23000,
+};
+const paddler = {
+    age: 34,
+    height: 155,
+    skin: 'black',
+    color: 'Kalu',
+    paddle: true
+};
 //# sourceMappingURL=typeAlias.js.map
