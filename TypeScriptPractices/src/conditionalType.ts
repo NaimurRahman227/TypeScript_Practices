@@ -1,5 +1,12 @@
+type A = null
+type B = undefined
 
-const i = 10
-if (i => 10){
-    console.log(true)
+type C = A extends number ? true : B extends undefined ? true : false;
+
+type richPeople = {
+    bike : string;
+    car : string;
+    yacht : boolean;
 }
+
+type vehicleInfo <T> = T extends keyof richPeople ? true : false;
