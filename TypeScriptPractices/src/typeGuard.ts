@@ -8,3 +8,6 @@ const add = (num1 : number | string , num2 : number | string)=>{
  const jogfol = add(23 ,45)
 
  console.log(jogfol)
+ const arojog = add(133 , 355)
+
+ console.log(arojog)
