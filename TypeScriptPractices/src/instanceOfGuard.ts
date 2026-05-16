@@ -18,4 +18,4 @@ class Student extends Person {
 }
 
 const student1 = new Student('faruk')
-console.log(student1)
+console.log(Student)
