@@ -4,7 +4,7 @@ class openAccount {
     userId : number;
     userName: string;
     private userBalance : number;
-    pass: number;
+    private  pass: number;
 
     constructor(userId : number , userName : string , userbalance: number , pass : number){
         this.userBalance = userbalance;
@@ -19,8 +19,7 @@ class openAccount {
             return this.userBalance;
         } else {
             console.log('Credentials Does not match')
-        }
-        
+        }        
     }
 
 }
