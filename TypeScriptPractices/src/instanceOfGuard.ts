@@ -49,4 +49,4 @@ const teacher1 = new Teacher('Wakfor Ali')
 const student1 = new Student('faruk')
 console.log(Student)
 
-getUserInfo(student2);
+getUserInfo(student2);  
