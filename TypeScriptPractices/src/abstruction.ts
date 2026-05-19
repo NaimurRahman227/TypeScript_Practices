@@ -13,3 +13,26 @@ class person {
         this.name = name;
     }
 }
+
+const kaluPerson = new person('hedu' , 'kalo' , 'modsa' , 5.6 , 23)
+
+interface MediaPlayer {
+    play() : void;
+    pause() : void;
+    stop(): void;
+}
+
+class MusicPlayer implements MediaPlayer{
+    play(){
+        console.log('Playing music...')
+    }
+    pause(): void {
+        console.log('Music Paused...')
+    }
+    stop(): void {
+        console.log('Music stopped...')
+    }
+}
+
+const NaimurPlays = new MusicPlayer();
+NaimurPlays.play();
