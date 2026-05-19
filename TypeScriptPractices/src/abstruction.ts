@@ -36,3 +36,25 @@ class MusicPlayer implements MediaPlayer{
 
 const NaimurPlays = new MusicPlayer();
 NaimurPlays.play();
+
+abstract class VideoPlayer{
+    abstract playy() : void;
+    abstract pausee() : void;
+    abstract stopped() : void;
+}
+
+class PotPlayer extends VideoPlayer {
+    playy(): void {
+        console.log(`Dnace is running,,,,`)
+    }
+    pausee(): void {
+        console.log('Pause the dance video.....')
+    }
+    stopped(): void {
+        console.log('Stop the dance video immidiately...')
+    }
+}
+
+const VLCPlayer = new PotPlayer();
+
+VLCPlayer.pausee();
