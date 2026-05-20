@@ -24,3 +24,7 @@ class studentAccount extends BankAccount {
 
 const Naimur = new studentAccount(132323 , 'halum' , 30900)
 Naimur.test()
+
+const bidhan = new studentAccount(1001 , 'bidhan' , 3400)
+
+console.log(bidhan.userName)
