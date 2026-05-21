@@ -28,3 +28,7 @@ Naimur.test()
 const bidhan = new studentAccount(1001 , 'bidhan' , 3400)
 
 console.log(bidhan.userName)
+
+const Badol = new studentAccount(12232 , 'Badu' , 299)
+
+console.log(Badol.userId)
